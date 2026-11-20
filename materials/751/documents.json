@@ -1,0 +1,32 @@
+{
+  "documents": [
+    {
+      "doc_id": "D1",
+      "case_id": "C1",
+      "rule_ids": [
+        "RA"
+      ]
+    },
+    {
+      "doc_id": "D2",
+      "case_id": "C1",
+      "rule_ids": [
+        "RB"
+      ]
+    },
+    {
+      "doc_id": "D3",
+      "case_id": "C2",
+      "rule_ids": [
+        "RA"
+      ]
+    },
+    {
+      "doc_id": "D4",
+      "case_id": "C3",
+      "rule_ids": [
+        "RA"
+      ]
+    }
+  ]
+}

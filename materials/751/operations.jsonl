@@ -1,0 +1,5 @@
+{"operation":"prepare_and_publish","as_of_day":40,"save_as":"P1"}
+{"operation":"revise_hold","hold":{"hold_id":"H1","revision":2,"case_id":"C1","start":25,"end":35}}
+{"operation":"confirm_handoff_list","proposal":"P1","expect":"stale"}
+{"operation":"prepare_and_publish","as_of_day":40,"save_as":"P2"}
+{"operation":"read_historical","proposal":"P1"}

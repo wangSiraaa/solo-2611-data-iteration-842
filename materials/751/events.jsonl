@@ -1,0 +1,3 @@
+{"event_id":"E1","revision":1,"doc_id":"D1","type":"CLOSED","day":10}
+{"event_id":"E2","revision":1,"doc_id":"D2","type":"RECEIVED","day":5}
+{"event_id":"E3","revision":1,"doc_id":"D3","type":"CLOSED","day":18}

@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "rule_id": "RA",
+      "revision": 1,
+      "trigger_type": "CLOSED",
+      "keep_days": 20
+    },
+    {
+      "rule_id": "RB",
+      "revision": 1,
+      "trigger_type": "RECEIVED",
+      "keep_days": 10
+    }
+  ]
+}

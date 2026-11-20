@@ -1,0 +1,64 @@
+{
+  "rules": [
+    {
+      "rule_id": "R00",
+      "revision": 1,
+      "trigger_type": "TRIG00",
+      "keep_days": 0
+    },
+    {
+      "rule_id": "R01",
+      "revision": 1,
+      "trigger_type": "TRIG01",
+      "keep_days": 5
+    },
+    {
+      "rule_id": "R02",
+      "revision": 1,
+      "trigger_type": "TRIG02",
+      "keep_days": 10
+    },
+    {
+      "rule_id": "R03",
+      "revision": 1,
+      "trigger_type": "TRIG03",
+      "keep_days": 15
+    },
+    {
+      "rule_id": "R04",
+      "revision": 1,
+      "trigger_type": "TRIG04",
+      "keep_days": 20
+    },
+    {
+      "rule_id": "R05",
+      "revision": 1,
+      "trigger_type": "TRIG05",
+      "keep_days": 25
+    },
+    {
+      "rule_id": "R06",
+      "revision": 1,
+      "trigger_type": "TRIG06",
+      "keep_days": 30
+    },
+    {
+      "rule_id": "R07",
+      "revision": 1,
+      "trigger_type": "TRIG07",
+      "keep_days": 0
+    },
+    {
+      "rule_id": "R08",
+      "revision": 1,
+      "trigger_type": "TRIG08",
+      "keep_days": 5
+    },
+    {
+      "rule_id": "R09",
+      "revision": 1,
+      "trigger_type": "TRIG09",
+      "keep_days": 10
+    }
+  ]
+}

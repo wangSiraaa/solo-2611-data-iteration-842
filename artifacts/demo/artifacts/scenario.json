@@ -1,0 +1,356 @@
+{
+  "data_dir": "/workspace/artifacts/demo",
+  "expected": {
+    "C1_after_whole1": true,
+    "D1_computed_not_paused": true,
+    "P1_D1_releasable": true,
+    "P1_D4_missing_trigger": true,
+    "P1_frozen_H1_end_50": true,
+    "P2_D1_releasable": true,
+    "P2_D2_releasable": true,
+    "P2_D3_releasable": true,
+    "P2_D4_still_missing": true,
+    "boundary_34_frozen": true,
+    "boundary_35_free": true
+  },
+  "ok": true,
+  "steps": [
+    {
+      "result": {
+        "documents": {
+          "accepted": 4,
+          "changed": true
+        },
+        "events": {
+          "accepted": 3,
+          "changed": true
+        },
+        "holds": {
+          "accepted": 1,
+          "changed": true
+        },
+        "mirrored": 4,
+        "rules": {
+          "accepted": 2,
+          "changed": true
+        }
+      },
+      "step": "import"
+    },
+    {
+      "artifact": "artifacts/demo/artifacts/P1.json",
+      "as_of_day": 40,
+      "documents": {
+        "D1": {
+          "blocks": [
+            "hold"
+          ],
+          "case_id": "C1",
+          "computed_day": 30,
+          "releasable": false,
+          "time_condition_met": true
+        },
+        "D2": {
+          "blocks": [
+            "hold"
+          ],
+          "case_id": "C1",
+          "computed_day": 15,
+          "releasable": false,
+          "time_condition_met": true
+        },
+        "D3": {
+          "blocks": [],
+          "case_id": "C2",
+          "computed_day": 38,
+          "releasable": true,
+          "time_condition_met": true
+        },
+        "D4": {
+          "blocks": [
+            "missing_trigger"
+          ],
+          "case_id": "C3",
+          "computed_day": null,
+          "releasable": false,
+          "time_condition_met": false
+        }
+      },
+      "source_revision": 4,
+      "step": "publish_P1"
+    },
+    {
+      "plan": {
+        "as_of_day": 40,
+        "blocked": {
+          "C1": {
+            "detail": {
+              "D1": [
+                {
+                  "detail": "hold H1 rev 1 active on day 40 [25,50)",
+                  "hold_id": "H1",
+                  "key": "hold:H1",
+                  "kind": "hold"
+                }
+              ],
+              "D2": [
+                {
+                  "detail": "hold H1 rev 1 active on day 40 [25,50)",
+                  "hold_id": "H1",
+                  "key": "hold:H1",
+                  "kind": "hold"
+                }
+              ]
+            },
+            "doc_ids": [
+              "D1",
+              "D2"
+            ],
+            "reason": "ineligible_members"
+          },
+          "C3": {
+            "detail": {
+              "D4": [
+                {
+                  "detail": "no CLOSED event for document",
+                  "key": "missing_trigger:RA",
+                  "kind": "missing_trigger",
+                  "rule_id": "RA"
+                }
+              ]
+            },
+            "doc_ids": [
+              "D4"
+            ],
+            "reason": "ineligible_members"
+          }
+        },
+        "doc_digests": {
+          "D1": "27e2ed701b4ef9d7d3279cdeef0bf669a8301a7f3bfaf932888a202c5fcbfd9e",
+          "D2": "d8cd551521c93428c95536abdb6c2b6f3d134eff157c84618fd8aa5016cac3ac",
+          "D3": "19c8f9dba112272cb2de2dd18779d2c8ede746ae1e8e60ae958e861d12cb4f1d",
+          "D4": "670c01b8dbcc56a6092dd9fdc6b36f703445da31d2b28aac08347eb9d579dbbc"
+        },
+        "eligible": {
+          "C2": {
+            "as_of_day": 40,
+            "case_id": "C2",
+            "doc_ids": [
+              "D3"
+            ],
+            "from": "LOCAL",
+            "per_doc": {
+              "D3": {
+                "computed_day": 38,
+                "digest": "19c8f9dba112272cb2de2dd18779d2c8ede746ae1e8e60ae958e861d12cb4f1d",
+                "releasable": true
+              }
+            },
+            "product_id": "Q40-before",
+            "to": "VAULT1"
+          }
+        },
+        "from": "LOCAL",
+        "plan_id": "P1",
+        "product_basis": {
+          "catalog_revision": 4,
+          "events": {
+            "E1": 1,
+            "E2": 1,
+            "E3": 1
+          },
+          "holds": {
+            "H1": 1
+          },
+          "rules": {
+            "RA": 1,
+            "RB": 1
+          }
+        },
+        "product_id": "Q40-before",
+        "to": "VAULT1"
+      },
+      "step": "publish_plan_P1"
+    },
+    {
+      "code": "ineligible_members",
+      "detail": "one or more members are not releasable: [{\"block_reasons\": [{\"detail\": \"hold H1 rev 1 active on day 40 [25,50)\", \"hold_id\": \"H1\", \"key\": \"hold:H1\", \"kind\": \"hold\"}], \"detail\": \"document is not releasable on the requested day\", \"doc_id\": \"D1\", \"kind\": \"not_releasable\"}, {\"block_reasons\": [{\"detail\": \"hold H1 rev 1 active on day 40 [25,50)\", \"hold_id\": \"H1\", \"key\": \"hold:H1\", \"kind\": \"hold\"}], \"detail\": \"document is not releasable on the requested day\", \"doc_id\": \"D2\", \"kind\": \"not_releasable\"}]",
+      "outcome": "rejected",
+      "step": "handoff_C1_before_correction"
+    },
+    {
+      "boundary_D1": {
+        "34": {
+          "computed_day": 30,
+          "hold_active": true,
+          "releasable": false
+        },
+        "35": {
+          "computed_day": 30,
+          "hold_active": false,
+          "releasable": true
+        },
+        "40": {
+          "computed_day": 30,
+          "hold_active": false,
+          "releasable": true
+        }
+      },
+      "note": "clock not paused: computed day stays 30/15, not 30+25",
+      "step": "revise_H1"
+    },
+    {
+      "artifact": "artifacts/demo/artifacts/P2.json",
+      "as_of_day": 40,
+      "documents": {
+        "D1": {
+          "blocks": [],
+          "case_id": "C1",
+          "computed_day": 30,
+          "releasable": true,
+          "time_condition_met": true
+        },
+        "D2": {
+          "blocks": [],
+          "case_id": "C1",
+          "computed_day": 15,
+          "releasable": true,
+          "time_condition_met": true
+        },
+        "D3": {
+          "blocks": [],
+          "case_id": "C2",
+          "computed_day": 38,
+          "releasable": true,
+          "time_condition_met": true
+        },
+        "D4": {
+          "blocks": [
+            "missing_trigger"
+          ],
+          "case_id": "C3",
+          "computed_day": null,
+          "releasable": false,
+          "time_condition_met": false
+        }
+      },
+      "source_revision": 5,
+      "step": "publish_P2"
+    },
+    {
+      "D1_holds": [
+        {
+          "end": 50,
+          "hold_id": "H1",
+          "revision": 1,
+          "start": 25
+        }
+      ],
+      "step": "P1_frozen"
+    },
+    {
+      "code": "stale_plan",
+      "detail": "plan P1 no longer valid: D1: qualification changed since publish; D2: qualification changed since publish",
+      "outcome": "rejected",
+      "step": "confirm_plan_P1"
+    },
+    {
+      "code": "not_whole_case",
+      "detail": "requested document set does not equal current case membership; missing=['D2']",
+      "outcome": "rejected",
+      "step": "PARTIAL"
+    },
+    {
+      "C1": "LOCAL",
+      "step": "custody_after_PARTIAL"
+    },
+    {
+      "C1": "VAULT1",
+      "committed": {
+        "as_of_day": 40,
+        "case_id": "C1",
+        "doc_ids": [
+          "D1",
+          "D2"
+        ],
+        "from": "LOCAL",
+        "handoff_id": "WHOLE1",
+        "per_doc": {
+          "D1": {
+            "digest": "7a022e83a6af1f72254bebe5809e0c293317767f6e22f689bab626add42a2074",
+            "product_id": "Q40-after",
+            "releasable": true
+          },
+          "D2": {
+            "digest": "a965ffd868593124b9ef925d21a9cf72166aba25bbcbcdc533ebf37002170fe4",
+            "product_id": "Q40-after",
+            "releasable": true
+          }
+        },
+        "product_id": "Q40-after",
+        "replayed": false,
+        "replayed_readonly": false,
+        "to": "VAULT1"
+      },
+      "step": "WHOLE1"
+    },
+    {
+      "readonly": true,
+      "replayed": true,
+      "step": "WHOLE1_replay"
+    },
+    {
+      "code": "custody_mismatch",
+      "detail": "case C1 is held by VAULT1, not LOCAL",
+      "outcome": "rejected",
+      "step": "WHOLE_new_id_from_LOCAL"
+    },
+    {
+      "code": "handoff_conflict",
+      "detail": "handoff_id WHOLE1 replayed with different content",
+      "outcome": "rejected",
+      "step": "WHOLE2_conflicting_content"
+    },
+    {
+      "report": {
+        "custody": [
+          {
+            "case_id": "C1",
+            "current": "VAULT1",
+            "ledger": "VAULT1",
+            "ok": true
+          },
+          {
+            "case_id": "C2",
+            "current": "LOCAL",
+            "ledger": "LOCAL",
+            "ok": true
+          },
+          {
+            "case_id": "C3",
+            "current": "LOCAL",
+            "ledger": "LOCAL",
+            "ok": true
+          }
+        ],
+        "errors": [],
+        "handoffs": [
+          {
+            "case_id": "C1",
+            "from": "LOCAL",
+            "handoff_id": "WHOLE1",
+            "members": [
+              "D1",
+              "D2"
+            ],
+            "per_doc_ok": true,
+            "product_id": "Q40-after",
+            "to": "VAULT1"
+          }
+        ],
+        "ok": true
+      },
+      "step": "verify"
+    }
+  ]
+}

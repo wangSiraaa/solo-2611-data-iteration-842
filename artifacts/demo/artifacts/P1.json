@@ -1,0 +1,195 @@
+{
+  "as_of_day": 40,
+  "catalog_basis": {
+    "catalog_revision": 4,
+    "events": {
+      "E1": 1,
+      "E2": 1,
+      "E3": 1
+    },
+    "holds": {
+      "H1": 1
+    },
+    "rules": {
+      "RA": 1,
+      "RB": 1
+    }
+  },
+  "documents": {
+    "D1": {
+      "as_of_day": 40,
+      "block_reasons": [
+        {
+          "detail": "hold H1 rev 1 active on day 40 [25,50)",
+          "hold_id": "H1",
+          "key": "hold:H1",
+          "kind": "hold"
+        }
+      ],
+      "case_id": "C1",
+      "computed_day": 30,
+      "doc_id": "D1",
+      "event_revisions": {
+        "E1": 1
+      },
+      "hold_revisions": {
+        "H1": 1
+      },
+      "holds_active": [
+        {
+          "case_id": "C1",
+          "end": 50,
+          "hold_id": "H1",
+          "revision": 1,
+          "start": 25
+        }
+      ],
+      "missing_trigger_rules": [],
+      "releasable": false,
+      "rule_revisions": {
+        "RA": 1
+      },
+      "rules": [
+        {
+          "computed_day": 30,
+          "event_day": 10,
+          "event_id": "E1",
+          "event_revision": 1,
+          "keep_days": 20,
+          "missing_trigger": false,
+          "rule_id": "RA",
+          "rule_revision": 1,
+          "satisfied": true,
+          "trigger_type": "CLOSED"
+        }
+      ],
+      "threshold_met": true,
+      "time_condition_met": true
+    },
+    "D2": {
+      "as_of_day": 40,
+      "block_reasons": [
+        {
+          "detail": "hold H1 rev 1 active on day 40 [25,50)",
+          "hold_id": "H1",
+          "key": "hold:H1",
+          "kind": "hold"
+        }
+      ],
+      "case_id": "C1",
+      "computed_day": 15,
+      "doc_id": "D2",
+      "event_revisions": {
+        "E2": 1
+      },
+      "hold_revisions": {
+        "H1": 1
+      },
+      "holds_active": [
+        {
+          "case_id": "C1",
+          "end": 50,
+          "hold_id": "H1",
+          "revision": 1,
+          "start": 25
+        }
+      ],
+      "missing_trigger_rules": [],
+      "releasable": false,
+      "rule_revisions": {
+        "RB": 1
+      },
+      "rules": [
+        {
+          "computed_day": 15,
+          "event_day": 5,
+          "event_id": "E2",
+          "event_revision": 1,
+          "keep_days": 10,
+          "missing_trigger": false,
+          "rule_id": "RB",
+          "rule_revision": 1,
+          "satisfied": true,
+          "trigger_type": "RECEIVED"
+        }
+      ],
+      "threshold_met": true,
+      "time_condition_met": true
+    },
+    "D3": {
+      "as_of_day": 40,
+      "block_reasons": [],
+      "case_id": "C2",
+      "computed_day": 38,
+      "doc_id": "D3",
+      "event_revisions": {
+        "E3": 1
+      },
+      "hold_revisions": {},
+      "holds_active": [],
+      "missing_trigger_rules": [],
+      "releasable": true,
+      "rule_revisions": {
+        "RA": 1
+      },
+      "rules": [
+        {
+          "computed_day": 38,
+          "event_day": 18,
+          "event_id": "E3",
+          "event_revision": 1,
+          "keep_days": 20,
+          "missing_trigger": false,
+          "rule_id": "RA",
+          "rule_revision": 1,
+          "satisfied": true,
+          "trigger_type": "CLOSED"
+        }
+      ],
+      "threshold_met": true,
+      "time_condition_met": true
+    },
+    "D4": {
+      "as_of_day": 40,
+      "block_reasons": [
+        {
+          "detail": "no CLOSED event for document",
+          "key": "missing_trigger:RA",
+          "kind": "missing_trigger",
+          "rule_id": "RA"
+        }
+      ],
+      "case_id": "C3",
+      "computed_day": null,
+      "doc_id": "D4",
+      "event_revisions": {},
+      "hold_revisions": {},
+      "holds_active": [],
+      "missing_trigger_rules": [
+        "RA"
+      ],
+      "releasable": false,
+      "rule_revisions": {
+        "RA": 1
+      },
+      "rules": [
+        {
+          "computed_day": null,
+          "event_day": null,
+          "event_id": null,
+          "event_revision": null,
+          "keep_days": 20,
+          "missing_trigger": true,
+          "rule_id": "RA",
+          "rule_revision": 1,
+          "satisfied": false,
+          "trigger_type": "CLOSED"
+        }
+      ],
+      "threshold_met": false,
+      "time_condition_met": false
+    }
+  },
+  "product_id": "P1",
+  "source_revision": 4
+}

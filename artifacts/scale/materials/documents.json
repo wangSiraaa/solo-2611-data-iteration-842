@@ -1,0 +1,1504 @@
+{
+  "documents": [
+    {
+      "doc_id": "DX0000",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0001",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0002",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0003",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0004",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0005",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0006",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0007",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0008",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0009",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0010",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0011",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0012",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0013",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0014",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0015",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0016",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0017",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0018",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0019",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0020",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0021",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0022",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0023",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0024",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0025",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0026",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0027",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0028",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0029",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0030",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0031",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0032",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0033",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0034",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0035",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0036",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0037",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0038",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0039",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0040",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0041",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0042",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0043",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0044",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0045",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0046",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0047",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0048",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0049",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0050",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0051",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0052",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0053",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0054",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0055",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0056",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0057",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0058",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0059",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0060",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0061",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0062",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0063",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0064",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0065",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0066",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0067",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0068",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0069",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0070",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0071",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0072",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0073",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0074",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0075",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0076",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0077",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0078",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0079",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0080",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0081",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0082",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0083",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0084",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0085",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0086",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0087",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0088",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0089",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0090",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0091",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0092",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0093",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0094",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0095",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0096",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0097",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0098",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0099",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0100",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0101",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0102",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0103",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0104",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0105",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0106",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0107",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0108",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0109",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0110",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0111",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0112",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0113",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0114",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0115",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0116",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0117",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0118",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0119",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0120",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0121",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0122",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0123",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0124",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0125",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0126",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0127",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0128",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0129",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0130",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0131",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0132",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0133",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0134",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0135",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0136",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0137",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0138",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0139",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0140",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0141",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0142",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0143",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0144",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0145",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0146",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0147",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0148",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0149",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0150",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0151",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0152",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0153",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0154",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0155",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0156",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0157",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0158",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0159",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0160",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0161",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0162",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0163",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0164",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0165",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0166",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0167",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0168",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0169",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0170",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0171",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0172",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0173",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0174",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0175",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0176",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0177",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0178",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0179",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0180",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0181",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0182",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0183",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0184",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0185",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0186",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0187",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0188",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0189",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "doc_id": "DX0190",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R00"
+      ]
+    },
+    {
+      "doc_id": "DX0191",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0192",
+      "case_id": "CX00",
+      "rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "doc_id": "DX0193",
+      "case_id": "CX01",
+      "rule_ids": [
+        "R03",
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0194",
+      "case_id": "CX02",
+      "rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "doc_id": "DX0195",
+      "case_id": "CX03",
+      "rule_ids": [
+        "R05",
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0196",
+      "case_id": "CX04",
+      "rule_ids": [
+        "R06"
+      ]
+    },
+    {
+      "doc_id": "DX0197",
+      "case_id": "CX05",
+      "rule_ids": [
+        "R00",
+        "R07"
+      ]
+    },
+    {
+      "doc_id": "DX0198",
+      "case_id": "CX06",
+      "rule_ids": [
+        "R08"
+      ]
+    },
+    {
+      "doc_id": "DX0199",
+      "case_id": "CX07",
+      "rule_ids": [
+        "R02",
+        "R09"
+      ]
+    }
+  ]
+}
