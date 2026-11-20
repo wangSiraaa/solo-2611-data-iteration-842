@@ -1,0 +1,75 @@
+{
+  "board_width": "3",
+  "cut_seq": 6,
+  "digest": "e37d40e63ed9f3ad0252c1013852accc36cb47ce16280d21770f3d55613f5ea3",
+  "dossier_id": "A",
+  "observers": {
+    "EYE0": {
+      "boards": {
+        "B_LEFT": {
+          "blocked_length": "1",
+          "blocked_segments": [
+            {
+              "hi": "3",
+              "lo": "2"
+            }
+          ],
+          "visible_length": "2",
+          "visible_segments": [
+            {
+              "hi": "2",
+              "lo": "0"
+            }
+          ]
+        },
+        "B_RIGHT": {
+          "blocked_length": "2",
+          "blocked_segments": [
+            {
+              "hi": "5",
+              "lo": "3"
+            }
+          ],
+          "visible_length": "1",
+          "visible_segments": [
+            {
+              "hi": "6",
+              "lo": "5"
+            }
+          ]
+        }
+      },
+      "eye_x": "0",
+      "union_shadows": [
+        {
+          "hi": "5",
+          "lo": "2"
+        }
+      ]
+    }
+  },
+  "occupied_seats": [
+    {
+      "admitted_by": "a-e3",
+      "issued_by": "a-e1",
+      "last_move_by": null,
+      "seat_id": "S1",
+      "ticket_id": "T1"
+    }
+  ],
+  "ranking": [
+    {
+      "board_id": "B_LEFT",
+      "worst_visible_length": "2"
+    },
+    {
+      "board_id": "B_RIGHT",
+      "worst_visible_length": "1"
+    }
+  ],
+  "revision": "original",
+  "selected_board": "B_LEFT",
+  "selected_worst_visible_length": "2",
+  "snapshot_source": "snapshot_cut6_original.json",
+  "study_id": "A1_BEFORE_SWAP"
+}

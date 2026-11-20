@@ -1,0 +1,24 @@
+{"action": "issue", "event_id": "e1", "map_version": "v1", "number": 1, "row": "甲", "seat2_id": null, "seat_id": "S1", "seq": 1, "status": "accepted", "ticket2_id": null, "ticket_id": "T1"}
+{"action": "issue", "event_id": "e2", "map_version": "v1", "number": 2, "row": "甲", "seat2_id": null, "seat_id": "S2", "seq": 2, "status": "accepted", "ticket2_id": null, "ticket_id": "T2"}
+{"action": "issue", "event_id": "e3", "map_version": "v1", "number": 3, "row": "甲", "seat2_id": null, "seat_id": "S3", "seq": 3, "status": "accepted", "ticket2_id": null, "ticket_id": "T3"}
+{"action": "issue", "event_id": "e4", "map_version": "v1", "number": 4, "row": "甲", "seat2_id": null, "seat_id": "S4", "seq": 4, "status": "accepted", "ticket2_id": null, "ticket_id": "T4"}
+{"action": "issue", "event_id": "e5", "map_version": "v1", "number": 1, "row": "乙", "seat2_id": null, "seat_id": "S5", "seq": 5, "status": "accepted", "ticket2_id": null, "ticket_id": "T5"}
+{"action": "issue", "event_id": "e6", "map_version": "v1", "number": 2, "row": "乙", "seat2_id": null, "seat_id": "S6", "seq": 6, "status": "accepted", "ticket2_id": null, "ticket_id": "T6"}
+{"action": "issue", "event_id": "e7", "map_version": "v1", "number": 3, "row": "乙", "seat2_id": null, "seat_id": "S7", "seq": 7, "status": "accepted", "ticket2_id": null, "ticket_id": "T7"}
+{"action": "issue", "event_id": "e8", "map_version": "v1", "number": 4, "row": "乙", "seat2_id": null, "seat_id": "S8", "seq": 8, "status": "accepted", "ticket2_id": null, "ticket_id": "T8"}
+{"action": "admit", "event_id": "e9", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": "S1", "seq": 9, "status": "accepted", "ticket2_id": null, "ticket_id": "T1"}
+{"action": "admit", "event_id": "e10", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": "S2", "seq": 10, "status": "accepted", "ticket2_id": null, "ticket_id": "T2"}
+{"action": "admit", "event_id": "e11", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": "S3", "seq": 11, "status": "accepted", "ticket2_id": null, "ticket_id": "T3"}
+{"action": "admit", "event_id": "e12", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": "S4", "seq": 12, "status": "accepted", "ticket2_id": null, "ticket_id": "T4"}
+{"action": "admit", "event_id": "e13", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": "S5", "seq": 13, "status": "accepted", "ticket2_id": null, "ticket_id": "T5"}
+{"action": "admit", "event_id": "e14", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": "S6", "seq": 14, "status": "accepted", "ticket2_id": null, "ticket_id": "T6"}
+{"action": "admit", "event_id": "e15", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": "S7", "seq": 15, "status": "accepted", "ticket2_id": null, "ticket_id": "T7"}
+{"action": "admit", "event_id": "e16", "map_version": null, "number": null, "reason": "unknown_ticket", "row": null, "seat2_id": null, "seat_id": "S8", "seq": 16, "status": "rejected", "ticket2_id": null, "ticket_id": "T99"}
+{"action": "swap", "event_id": "e17", "map_version": "v2", "number": 4, "reason": "ticket_not_present", "row": "B", "seat2_id": null, "seat_id": "S8", "seq": 17, "status": "rejected", "ticket2_id": null, "ticket_id": "T8"}
+{"action": "void", "event_id": "e18", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": null, "seq": 18, "status": "accepted", "ticket2_id": null, "ticket_id": "T8"}
+{"action": "swap", "event_id": "e19", "map_version": "v2", "number": 2, "reason": "target_not_empty", "row": "A", "seat2_id": null, "seat_id": "S2", "seq": 19, "status": "rejected", "ticket2_id": null, "ticket_id": "T4"}
+{"action": "swap", "event_id": "e20", "map_version": "v2", "number": 4, "reason": "ticket_voided", "row": "B", "seat2_id": null, "seat_id": "S8", "seq": 20, "status": "rejected", "ticket2_id": null, "ticket_id": "T8"}
+{"action": "exchange", "event_id": "e21", "map_version": null, "number": null, "reason": "party_missing", "row": null, "seat2_id": "S1", "seat_id": "S2", "seq": 21, "status": "rejected", "ticket2_id": "T99", "ticket_id": "T1"}
+{"action": "exchange", "event_id": "e22", "map_version": null, "number": null, "reason": "target_not_empty", "row": null, "seat2_id": "S1", "seat_id": "S3", "seq": 22, "status": "rejected", "ticket2_id": "T2", "ticket_id": "T1"}
+{"action": "exchange", "event_id": "e23", "map_version": null, "number": null, "row": null, "seat2_id": "S1", "seat_id": "S2", "seq": 23, "status": "accepted", "ticket2_id": "T2", "ticket_id": "T1"}
+{"action": "leave", "event_id": "e24", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": null, "seq": 24, "status": "accepted", "ticket2_id": null, "ticket_id": "T7"}

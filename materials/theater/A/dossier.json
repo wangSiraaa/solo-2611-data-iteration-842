@@ -1,0 +1,108 @@
+{
+  "digest": "b69c5cc0daf2a70ce4ace0bf6a13d3b2e6650c65bb909b42f938c03544816e86",
+  "dossier_id": "A",
+  "maps": [
+    {
+      "labels": [
+        {
+          "number": 1,
+          "row": "A",
+          "seat_id": "S1"
+        },
+        {
+          "number": 2,
+          "row": "A",
+          "seat_id": "S2"
+        }
+      ],
+      "map_version": "v1"
+    }
+  ],
+  "note": "字幕牌 y=10、眼点 y=0；S1 在 y=5 的线段为 [1,5/2]，投影因子 10/(10-y)=2。",
+  "seats": [
+    {
+      "lx": "1",
+      "rx": "5/2",
+      "seat_id": "S1",
+      "y": "5"
+    },
+    {
+      "lx": "0",
+      "rx": "3/4",
+      "seat_id": "S2",
+      "y": "5"
+    }
+  ],
+  "studies": [
+    {
+      "boards": [
+        {
+          "board_id": "B_LEFT",
+          "hi": "3",
+          "lo": "0"
+        },
+        {
+          "board_id": "B_RIGHT",
+          "hi": "6",
+          "lo": "3"
+        }
+      ],
+      "cut_seq": 6,
+      "observers": [
+        {
+          "eye_x": "0",
+          "observer_id": "EYE0"
+        }
+      ],
+      "revision": "original",
+      "study_id": "A1_BEFORE_SWAP"
+    },
+    {
+      "boards": [
+        {
+          "board_id": "B_LEFT",
+          "hi": "3",
+          "lo": "0"
+        },
+        {
+          "board_id": "B_RIGHT",
+          "hi": "6",
+          "lo": "3"
+        }
+      ],
+      "cut_seq": 7,
+      "observers": [
+        {
+          "eye_x": "0",
+          "observer_id": "EYE0"
+        }
+      ],
+      "revision": "original",
+      "study_id": "A2_AFTER_SWAP"
+    },
+    {
+      "boards": [
+        {
+          "board_id": "B_LEFT",
+          "hi": "3",
+          "lo": "0"
+        },
+        {
+          "board_id": "B_RIGHT",
+          "hi": "6",
+          "lo": "3"
+        }
+      ],
+      "cut_seq": 6,
+      "observers": [
+        {
+          "eye_x": "3",
+          "observer_id": "EYE3"
+        }
+      ],
+      "revision": "original",
+      "study_id": "A3_EYE_MOVED"
+    }
+  ],
+  "title": "题面数值例：单座换座与眼点移动"
+}

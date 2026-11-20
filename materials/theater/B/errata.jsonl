@@ -1,0 +1,1 @@
+{"erratum_id": "ER-B1", "note": "勘误：e23 互换双方应为 T5/T6（乙排前两座），T1/T2 未动。", "replacement": {"action": "exchange", "seat2_id": "S5", "seat_id": "S6", "ticket2_id": "T6", "ticket_id": "T5"}, "revision": 2, "target_event_id": "e23"}

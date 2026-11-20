@@ -1,0 +1,249 @@
+{
+  "digest": "5fca539df40c25bc20a68994efd1b6524f7f4e382fac9415c5f34d3da982cd1b",
+  "dossier_id": "B",
+  "maps": [
+    {
+      "labels": [
+        {
+          "number": 1,
+          "row": "乙",
+          "seat_id": "S5"
+        },
+        {
+          "number": 2,
+          "row": "乙",
+          "seat_id": "S6"
+        },
+        {
+          "number": 3,
+          "row": "乙",
+          "seat_id": "S7"
+        },
+        {
+          "number": 4,
+          "row": "乙",
+          "seat_id": "S8"
+        },
+        {
+          "number": 1,
+          "row": "甲",
+          "seat_id": "S1"
+        },
+        {
+          "number": 2,
+          "row": "甲",
+          "seat_id": "S2"
+        },
+        {
+          "number": 3,
+          "row": "甲",
+          "seat_id": "S3"
+        },
+        {
+          "number": 4,
+          "row": "甲",
+          "seat_id": "S4"
+        }
+      ],
+      "map_version": "v1"
+    },
+    {
+      "labels": [
+        {
+          "number": 1,
+          "row": "A",
+          "seat_id": "S1"
+        },
+        {
+          "number": 2,
+          "row": "A",
+          "seat_id": "S2"
+        },
+        {
+          "number": 3,
+          "row": "A",
+          "seat_id": "S3"
+        },
+        {
+          "number": 4,
+          "row": "A",
+          "seat_id": "S4"
+        },
+        {
+          "number": 1,
+          "row": "B",
+          "seat_id": "S5"
+        },
+        {
+          "number": 2,
+          "row": "B",
+          "seat_id": "S6"
+        },
+        {
+          "number": 3,
+          "row": "B",
+          "seat_id": "S7"
+        },
+        {
+          "number": 4,
+          "row": "B",
+          "seat_id": "S8"
+        }
+      ],
+      "map_version": "v2"
+    }
+  ],
+  "note": "票面按凭证自身所载版解释到稳定座位；勘误 r2 更正 e23 的换座。",
+  "seats": [
+    {
+      "lx": "1/2",
+      "rx": "5/4",
+      "seat_id": "S1",
+      "y": "5"
+    },
+    {
+      "lx": "2",
+      "rx": "9/4",
+      "seat_id": "S2",
+      "y": "5"
+    },
+    {
+      "lx": "5/2",
+      "rx": "13/4",
+      "seat_id": "S3",
+      "y": "5"
+    },
+    {
+      "lx": "9/2",
+      "rx": "5",
+      "seat_id": "S4",
+      "y": "5"
+    },
+    {
+      "lx": "1/4",
+      "rx": "3/4",
+      "seat_id": "S5",
+      "y": "8"
+    },
+    {
+      "lx": "2",
+      "rx": "3",
+      "seat_id": "S6",
+      "y": "8"
+    },
+    {
+      "lx": "9/2",
+      "rx": "21/4",
+      "seat_id": "S7",
+      "y": "8"
+    },
+    {
+      "lx": "7",
+      "rx": "31/4",
+      "seat_id": "S8",
+      "y": "8"
+    }
+  ],
+  "studies": [
+    {
+      "boards": [
+        {
+          "board_id": "B1",
+          "hi": "3",
+          "lo": "0"
+        },
+        {
+          "board_id": "B2",
+          "hi": "6",
+          "lo": "3"
+        },
+        {
+          "board_id": "B3",
+          "hi": "9",
+          "lo": "6"
+        }
+      ],
+      "cut_seq": 24,
+      "observers": [
+        {
+          "eye_x": "0",
+          "observer_id": "EYE0"
+        },
+        {
+          "eye_x": "3",
+          "observer_id": "EYE3"
+        },
+        {
+          "eye_x": "-3",
+          "observer_id": "EYEM3"
+        }
+      ],
+      "revision": "r2",
+      "study_id": "B-CORRECTED"
+    },
+    {
+      "boards": [
+        {
+          "board_id": "B1",
+          "hi": "3",
+          "lo": "0"
+        },
+        {
+          "board_id": "B2",
+          "hi": "6",
+          "lo": "3"
+        },
+        {
+          "board_id": "B3",
+          "hi": "9",
+          "lo": "6"
+        }
+      ],
+      "cut_seq": 24,
+      "observers": [
+        {
+          "eye_x": "0",
+          "observer_id": "EYE0"
+        },
+        {
+          "eye_x": "3",
+          "observer_id": "EYE3"
+        },
+        {
+          "eye_x": "-3",
+          "observer_id": "EYEM3"
+        }
+      ],
+      "revision": "original",
+      "study_id": "B-ORIGINAL"
+    },
+    {
+      "boards": [
+        {
+          "board_id": "B4",
+          "hi": "33",
+          "lo": "30"
+        },
+        {
+          "board_id": "B5",
+          "hi": "36",
+          "lo": "33"
+        }
+      ],
+      "cut_seq": 24,
+      "observers": [
+        {
+          "eye_x": "0",
+          "observer_id": "EYE0"
+        },
+        {
+          "eye_x": "3",
+          "observer_id": "EYE3"
+        }
+      ],
+      "revision": "r2",
+      "study_id": "B-TIE"
+    }
+  ],
+  "title": "全流程案卷：多版座图、换座互换、勘误与多观察点选牌"
+}

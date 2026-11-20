@@ -1,0 +1,74 @@
+{
+  "cut_seq": 7,
+  "digest": "b013dcf179cc778f8c3211ecd0bef410c6346325ff3c4451c12fdf97ff3b1cf9",
+  "dossier_id": "A",
+  "errata_applied": [],
+  "occupied_seats": [
+    {
+      "admitted_by": "a-e3",
+      "issued_by": "a-e1",
+      "last_move_by": "a-e7",
+      "seat_id": "S2",
+      "ticket_id": "T1"
+    }
+  ],
+  "revision": "original",
+  "trace": [
+    {
+      "action": "issue",
+      "event_id": "a-e1",
+      "reason": null,
+      "replay_basis": "as_recorded",
+      "seq": 1,
+      "status": "accepted"
+    },
+    {
+      "action": "issue",
+      "event_id": "a-e2",
+      "reason": null,
+      "replay_basis": "as_recorded",
+      "seq": 2,
+      "status": "accepted"
+    },
+    {
+      "action": "admit",
+      "event_id": "a-e3",
+      "reason": null,
+      "replay_basis": "as_recorded",
+      "seq": 3,
+      "status": "accepted"
+    },
+    {
+      "action": "swap",
+      "event_id": "a-e4",
+      "reason": "ticket_not_present",
+      "replay_basis": "as_recorded",
+      "seq": 4,
+      "status": "rejected"
+    },
+    {
+      "action": "void",
+      "event_id": "a-e5",
+      "reason": null,
+      "replay_basis": "as_recorded",
+      "seq": 5,
+      "status": "accepted"
+    },
+    {
+      "action": "swap",
+      "event_id": "a-e6",
+      "reason": "ticket_voided",
+      "replay_basis": "as_recorded",
+      "seq": 6,
+      "status": "rejected"
+    },
+    {
+      "action": "swap",
+      "event_id": "a-e7",
+      "reason": null,
+      "replay_basis": "as_recorded",
+      "seq": 7,
+      "status": "accepted"
+    }
+  ]
+}

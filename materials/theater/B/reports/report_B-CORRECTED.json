@@ -1,0 +1,302 @@
+{
+  "board_width": "3",
+  "cut_seq": 24,
+  "digest": "a94772ebee975910f7a15a0af51032fef16ffff379f20c689de750f0c2d9460c",
+  "dossier_id": "B",
+  "observers": {
+    "EYE0": {
+      "boards": {
+        "B1": {
+          "blocked_length": "2",
+          "blocked_segments": [
+            {
+              "hi": "3",
+              "lo": "1"
+            }
+          ],
+          "visible_length": "1",
+          "visible_segments": [
+            {
+              "hi": "1",
+              "lo": "0"
+            }
+          ]
+        },
+        "B2": {
+          "blocked_length": "9/4",
+          "blocked_segments": [
+            {
+              "hi": "15/4",
+              "lo": "3"
+            },
+            {
+              "hi": "9/2",
+              "lo": "4"
+            },
+            {
+              "hi": "6",
+              "lo": "5"
+            }
+          ],
+          "visible_length": "3/4",
+          "visible_segments": [
+            {
+              "hi": "4",
+              "lo": "15/4"
+            },
+            {
+              "hi": "5",
+              "lo": "9/2"
+            }
+          ]
+        },
+        "B3": {
+          "blocked_length": "1/2",
+          "blocked_segments": [
+            {
+              "hi": "13/2",
+              "lo": "6"
+            }
+          ],
+          "visible_length": "5/2",
+          "visible_segments": [
+            {
+              "hi": "9",
+              "lo": "13/2"
+            }
+          ]
+        }
+      },
+      "eye_x": "0",
+      "union_shadows": [
+        {
+          "hi": "15/4",
+          "lo": "1"
+        },
+        {
+          "hi": "9/2",
+          "lo": "4"
+        },
+        {
+          "hi": "13/2",
+          "lo": "5"
+        },
+        {
+          "hi": "15",
+          "lo": "9"
+        }
+      ]
+    },
+    "EYE3": {
+      "boards": {
+        "B1": {
+          "blocked_length": "3",
+          "blocked_segments": [
+            {
+              "hi": "3",
+              "lo": "0"
+            }
+          ],
+          "visible_length": "0",
+          "visible_segments": []
+        },
+        "B2": {
+          "blocked_length": "1/2",
+          "blocked_segments": [
+            {
+              "hi": "7/2",
+              "lo": "3"
+            }
+          ],
+          "visible_length": "5/2",
+          "visible_segments": [
+            {
+              "hi": "6",
+              "lo": "7/2"
+            }
+          ]
+        },
+        "B3": {
+          "blocked_length": "1",
+          "blocked_segments": [
+            {
+              "hi": "7",
+              "lo": "6"
+            }
+          ],
+          "visible_length": "2",
+          "visible_segments": [
+            {
+              "hi": "9",
+              "lo": "7"
+            }
+          ]
+        }
+      },
+      "eye_x": "3",
+      "union_shadows": [
+        {
+          "hi": "-33/4",
+          "lo": "-43/4"
+        },
+        {
+          "hi": "7/2",
+          "lo": "-2"
+        },
+        {
+          "hi": "7",
+          "lo": "6"
+        }
+      ]
+    },
+    "EYEM3": {
+      "boards": {
+        "B1": {
+          "blocked_length": "0",
+          "blocked_segments": [],
+          "visible_length": "3",
+          "visible_segments": [
+            {
+              "hi": "3",
+              "lo": "0"
+            }
+          ]
+        },
+        "B2": {
+          "blocked_length": "3/2",
+          "blocked_segments": [
+            {
+              "hi": "11/2",
+              "lo": "4"
+            }
+          ],
+          "visible_length": "3/2",
+          "visible_segments": [
+            {
+              "hi": "4",
+              "lo": "3"
+            },
+            {
+              "hi": "6",
+              "lo": "11/2"
+            }
+          ]
+        },
+        "B3": {
+          "blocked_length": "3/2",
+          "blocked_segments": [
+            {
+              "hi": "15/2",
+              "lo": "7"
+            },
+            {
+              "hi": "9",
+              "lo": "8"
+            }
+          ],
+          "visible_length": "3/2",
+          "visible_segments": [
+            {
+              "hi": "7",
+              "lo": "6"
+            },
+            {
+              "hi": "8",
+              "lo": "15/2"
+            }
+          ]
+        }
+      },
+      "eye_x": "-3",
+      "union_shadows": [
+        {
+          "hi": "11/2",
+          "lo": "4"
+        },
+        {
+          "hi": "15/2",
+          "lo": "7"
+        },
+        {
+          "hi": "19/2",
+          "lo": "8"
+        },
+        {
+          "hi": "13",
+          "lo": "12"
+        },
+        {
+          "hi": "63/4",
+          "lo": "53/4"
+        },
+        {
+          "hi": "27",
+          "lo": "22"
+        }
+      ]
+    }
+  },
+  "occupied_seats": [
+    {
+      "admitted_by": "e9",
+      "issued_by": "e1",
+      "last_move_by": null,
+      "seat_id": "S1",
+      "ticket_id": "T1"
+    },
+    {
+      "admitted_by": "e10",
+      "issued_by": "e2",
+      "last_move_by": null,
+      "seat_id": "S2",
+      "ticket_id": "T2"
+    },
+    {
+      "admitted_by": "e11",
+      "issued_by": "e3",
+      "last_move_by": null,
+      "seat_id": "S3",
+      "ticket_id": "T3"
+    },
+    {
+      "admitted_by": "e12",
+      "issued_by": "e4",
+      "last_move_by": null,
+      "seat_id": "S4",
+      "ticket_id": "T4"
+    },
+    {
+      "admitted_by": "e14",
+      "issued_by": "e6",
+      "last_move_by": "e23",
+      "seat_id": "S5",
+      "ticket_id": "T6"
+    },
+    {
+      "admitted_by": "e13",
+      "issued_by": "e5",
+      "last_move_by": "e23",
+      "seat_id": "S6",
+      "ticket_id": "T5"
+    }
+  ],
+  "ranking": [
+    {
+      "board_id": "B3",
+      "worst_visible_length": "3/2"
+    },
+    {
+      "board_id": "B2",
+      "worst_visible_length": "3/4"
+    },
+    {
+      "board_id": "B1",
+      "worst_visible_length": "0"
+    }
+  ],
+  "revision": "r2",
+  "selected_board": "B3",
+  "selected_worst_visible_length": "3/2",
+  "snapshot_source": "snapshot_cut24_r2.json",
+  "study_id": "B-CORRECTED"
+}

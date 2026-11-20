@@ -1,0 +1,7 @@
+{"action": "issue", "event_id": "a-e1", "map_version": "v1", "number": 1, "row": "A", "seat2_id": null, "seat_id": "S1", "seq": 1, "status": "accepted", "ticket2_id": null, "ticket_id": "T1"}
+{"action": "issue", "event_id": "a-e2", "map_version": "v1", "number": 2, "row": "A", "seat2_id": null, "seat_id": "S2", "seq": 2, "status": "accepted", "ticket2_id": null, "ticket_id": "T2"}
+{"action": "admit", "event_id": "a-e3", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": "S1", "seq": 3, "status": "accepted", "ticket2_id": null, "ticket_id": "T1"}
+{"action": "swap", "event_id": "a-e4", "map_version": "v1", "number": 1, "reason": "ticket_not_present", "row": "A", "seat2_id": null, "seat_id": "S1", "seq": 4, "status": "rejected", "ticket2_id": null, "ticket_id": "T2"}
+{"action": "void", "event_id": "a-e5", "map_version": null, "number": null, "row": null, "seat2_id": null, "seat_id": null, "seq": 5, "status": "accepted", "ticket2_id": null, "ticket_id": "T2"}
+{"action": "swap", "event_id": "a-e6", "map_version": "v1", "number": 1, "reason": "ticket_voided", "row": "A", "seat2_id": null, "seat_id": "S1", "seq": 6, "status": "rejected", "ticket2_id": null, "ticket_id": "T2"}
+{"action": "swap", "event_id": "a-e7", "map_version": "v1", "number": 2, "row": "A", "seat2_id": null, "seat_id": "S2", "seq": 7, "status": "accepted", "ticket2_id": null, "ticket_id": "T1"}

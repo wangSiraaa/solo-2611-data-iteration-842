@@ -1,0 +1,1 @@
+{"erratum_id": "ER-A1", "note": "勘误：第 7 笔换座未实际发生，T1 留在 S1，重放 r2 即恢复换座前占座。", "replacement": {"action": "swap", "map_version": "v1", "number": 1, "reason": "same_seat", "row": "A", "seat_id": "S1", "status": "rejected", "ticket_id": "T1"}, "revision": 2, "target_event_id": "a-e7"}
